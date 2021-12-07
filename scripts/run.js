@@ -31,3 +31,12 @@ const runMain = async () => {
 
 runMain();
 
+// Code that simulates other people hitting our functions
+
+waveTxn = await waveContract.connect(randomPerson).wave();
+await waveTxn.wait());
+
+waveCount = await waveContract.getTotalWaves();
+
+
+
