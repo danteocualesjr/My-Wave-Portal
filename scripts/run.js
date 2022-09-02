@@ -26,7 +26,7 @@ const main = async () => {
     */
 
     let contractBalance = await hre.ethers.provider.getBalance(
-        
+
         waveContract.address
         
     );
@@ -39,6 +39,7 @@ const main = async () => {
     // Sending two waves
 
     const waveTxn = await waveContract.wave('This is wave # 1');
+    
     await waveTxn.wait();
 
     const waveTxn2 = await waveContract.wave('This is wave # 2');
