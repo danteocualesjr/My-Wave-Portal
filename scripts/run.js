@@ -28,7 +28,7 @@ const main = async () => {
     );
     
     console.log(
-        
+
         'Contract balance:',
         hre.ethers.utils.formatEther(contractBalance)
         
@@ -93,6 +93,7 @@ const runMain = async () => {
         console.log(error);
         process.exit(1);
     }
+    
 };
 
 runMain();
