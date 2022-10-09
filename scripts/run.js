@@ -11,7 +11,7 @@ const main = async () => {
     });
 
     await waveContract.deployed();
-    
+
     console.log('Contract deployed addy:', waveContract.address);
     
     // console.log('Contract deployed by:', owner.address);
@@ -22,7 +22,8 @@ const main = async () => {
     console.log(waveCount.toNumber());
     */
 
-    let contractBalance = await hre.ethers.provider.getBalance(        
+    let contractBalance = await hre.ethers.provider.getBalance(   
+             
         waveContract.address  
     );
     
