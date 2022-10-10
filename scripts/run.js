@@ -7,7 +7,7 @@ const main = async () => {
     const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');
     
     const waveContract = await waveContractFactory.deploy({
-        
+
         value: hre.ethers.utils.parseEther('0.1'),  
         
     });
@@ -31,6 +31,7 @@ const main = async () => {
     );
     
     console.log(
+        
         'Contract balance:',
         hre.ethers.utils.formatEther(contractBalance)        
     );
