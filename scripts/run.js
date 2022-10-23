@@ -31,9 +31,10 @@ const main = async () => {
     );
     
     console.log(
-        
+
         'Contract balance:',
-        hre.ethers.utils.formatEther(contractBalance)                
+        hre.ethers.utils.formatEther(contractBalance)   
+                     
     );
 
     // Sending two waves
