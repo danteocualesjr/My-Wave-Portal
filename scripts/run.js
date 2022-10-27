@@ -24,7 +24,6 @@ const main = async () => {
     */
 
     let contractBalance = await hre.ethers.provider.getBalance(   
-
         waveContract.address  
 
     );
