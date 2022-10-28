@@ -26,7 +26,7 @@ const main = async () => {
     let contractBalance = await hre.ethers.provider.getBalance(   
 
         waveContract.address  
-        
+
     );
     
     console.log(
@@ -108,7 +108,6 @@ const runMain = async () => {
 runMain();
 
 // Code that simulates other people hitting our functions
-
 /* 
 
 waveTxn = await waveContract.connect(randomPerson).wave();
