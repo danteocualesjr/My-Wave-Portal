@@ -25,9 +25,10 @@ const main = async () => {
     console.log(waveCount.toNumber());
     */
 
-    let contractBalance = await hre.ethers.provider.getBalance(   
+    let contractBalance = await hre.ethers.provider.getBalance(  
+         
         waveContract.address  
-        
+
     );
     
     console.log(
