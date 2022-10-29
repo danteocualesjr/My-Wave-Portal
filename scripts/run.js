@@ -8,8 +8,7 @@ const main = async () => {
         value: hre.ethers.utils.parseEther('0.1'),            
     });
 
-    await waveContract.deployed();
-    
+    await waveContract.deployed();    
     console.log('Contract deployed addy:', waveContract.address);
     
     // console.log('Contract deployed by:', owner.address);
