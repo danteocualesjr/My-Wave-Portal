@@ -4,7 +4,6 @@ const main = async () => {
 
     // Updating run.js to call the functions I created for storing data (waves)
     // const [owner, randomPerson] = await hre.ethers.getSigners(); 
-
     const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');  
     const waveContract = await waveContractFactory.deploy({
         value: hre.ethers.utils.parseEther('0.1'), 
