@@ -44,10 +44,11 @@ const main = async () => {
 
         'Contract balance:',
         hre.ethers.utils.formatEther(contractBalance)    
-            
+
     );
 
     let allWaves = await waveContract.getAllWaves();    
+    
     console.log(allWaves);
 
     // Sending a few waves
