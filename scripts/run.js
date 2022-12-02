@@ -67,7 +67,7 @@ const main = async () => {
 }; 
 
 const runMain = async () => {
-    
+
     try {
 
         await main();
@@ -80,7 +80,8 @@ const runMain = async () => {
 
         process.exit(1);  
                               
-    }    
+    }  
+      
 };
 
 runMain();
