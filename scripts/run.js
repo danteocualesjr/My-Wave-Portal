@@ -55,8 +55,9 @@ const main = async () => {
         
         hre.ethers.utils.formatEther(contractBalance)    
     );
-    
-    let allWaves = await waveContract.getAllWaves();        
+
+    let allWaves = await waveContract.getAllWaves();     
+       
     console.log(allWaves);
 
     // Sending a few waves
