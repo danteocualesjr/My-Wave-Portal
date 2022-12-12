@@ -26,7 +26,6 @@ const main = async () => {
     );
 
     // Sending two waves
-
     const waveTxn = await waveContract.wave('This is wave # 1');
     await waveTxn.wait();
 
