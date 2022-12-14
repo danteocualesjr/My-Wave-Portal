@@ -38,7 +38,6 @@ const main = async () => {
     );
 
     let allWaves = await waveContract.getAllWaves();     
-
     console.log(allWaves);
 
     // Sending a few waves
