@@ -8,7 +8,6 @@ const main = async () => {
     });
 
     await waveContract.deployed();    
-
     console.log('Contract deployed addy:', waveContract.address);
     
     // console.log('Contract deployed by:', owner.address);
