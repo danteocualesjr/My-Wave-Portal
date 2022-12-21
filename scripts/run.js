@@ -73,7 +73,6 @@ const main = async () => {
 const runMain = async () => {
     try {
         await main();
-
         process.exit(0);
 
     }   catch (error) { 
