@@ -3,6 +3,7 @@
 const main = async () => {   
 
     // Updating run.js to call the functions I created for storing data (waves)
+    
     // const [owner, randomPerson] = await hre.ethers.getSigners(); 
 
     const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');  
@@ -99,7 +100,7 @@ const runMain = async () => {
     }   catch (error) {  
 
         console.log(error);
-        
+
         process.exit(1);  
                               
     }  
