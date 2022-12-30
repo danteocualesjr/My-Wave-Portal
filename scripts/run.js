@@ -3,7 +3,7 @@
 const main = async () => {   
 
     // Updating run.js to call the functions I created for storing data (waves)
-    
+
     // const [owner, randomPerson] = await hre.ethers.getSigners(); 
 
     const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');  
@@ -19,6 +19,7 @@ const main = async () => {
     console.log('Contract deployed addy:', waveContract.address);
     
     // console.log('Contract deployed by:', owner.address);
+    
     /*
     let waveCount;
     waveCount = await waveContract.getTotalWaves();
