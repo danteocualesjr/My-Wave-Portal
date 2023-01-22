@@ -10,10 +10,11 @@ const main = async () => {
     const waveContract = await waveContractFactory.deploy({   
 
         value: hre.ethers.utils.parseEther('0.1'),   
-               
+
     });
 
     await waveContract.deployed();      
+    
     console.log('Contract deployed addy:', waveContract.address);
     
     // console.log('Contract deployed by:', owner.address);
