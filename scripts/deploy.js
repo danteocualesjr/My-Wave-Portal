@@ -23,6 +23,7 @@ const main = async () => {
     // await portal.deployed();
 
     console.log('WavePortal address: ', waveContract.address);
+    
 };
 
 const runMain = async () => {
@@ -40,6 +41,7 @@ const runMain = async () => {
         process.exit(1);
         
     }
+    
 };
 
 runMain();
