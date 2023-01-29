@@ -10,6 +10,7 @@ contract Greeter {
     constructor(string memory _greeting) {
 
         console.log("Deploying a Greeter with greeting:", _greeting);
+        
         greeting = _greeting;
     }
 
@@ -21,5 +22,5 @@ contract Greeter {
         console.log("Changing greeting from '%s' to '%s'", greeting, _greeting);
         greeting = _greeting;
     }
-    
+
 }
