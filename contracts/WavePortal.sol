@@ -19,6 +19,7 @@ contract WavePortal {
         string message;
         
         uint256 timestamp;
+        
     }
 
 
