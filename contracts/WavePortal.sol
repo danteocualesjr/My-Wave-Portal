@@ -28,7 +28,7 @@ contract WavePortal {
     mapping (address => uint256) public lastWavedAt;
 
     constructor () payable {
-        
+
         console.log('We have been constructed!');
 
         seed = (block.timestamp + block.difficulty) % 100;
@@ -46,6 +46,7 @@ contract WavePortal {
         lastWavedAt[msg.sender] = block.timestamp;
 
         totalWaves += 1;
+        
         console.log('%s waved w/ message %s', msg.sender);
 
         waves.push(Wave(msg.sender, _message, block.timestamp));
