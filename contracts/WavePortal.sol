@@ -69,8 +69,9 @@ contract WavePortal {
                 "Trying to withdraw more money than the contract has."
 
             );
-            
+
             (bool success, ) = (msg.sender).call{value: prizeAmount}("");
+            
             require(success, "Failed to withdraw money from contract.");            
         }
 
