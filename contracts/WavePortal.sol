@@ -49,12 +49,13 @@ contract WavePortal {
             require(success, "Failed to withdraw money from contract.");    
                     
         }
+        
         emit NewWave(msg.sender, block.timestamp, _message);
 
     }
 
     function getAllWaves() public view returns (Wave[] memory) {
-        
+
         return waves;
 
     }
