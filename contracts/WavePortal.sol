@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 
 pragma solidity ^0.8.0;
+
 import "hardhat/console.sol";
 contract WavePortal {
 
@@ -12,7 +13,7 @@ contract WavePortal {
         address waver;
         string message;        
         uint256 timestamp;
-        
+
     }
 
     Wave[] waves;
