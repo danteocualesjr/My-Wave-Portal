@@ -16,7 +16,8 @@ contract WavePortal {
 
         address waver;
         
-        string message;        
+        string message;    
+            
         uint256 timestamp;
 
     }
