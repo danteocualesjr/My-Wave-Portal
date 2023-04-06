@@ -62,6 +62,7 @@ contract WavePortal {
             
             uint256 prizeAmount = 0.0001 ether;
             require(
+                
                 prizeAmount <= address(this).balance,
                 "Trying to withdraw more money than the contract has."                
             );
