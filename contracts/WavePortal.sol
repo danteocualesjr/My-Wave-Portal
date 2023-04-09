@@ -74,7 +74,8 @@ contract WavePortal {
 
             require(success, "Failed to withdraw money from contract.");  
                                   
-        }        
+        }       
+         
         emit NewWave(msg.sender, block.timestamp, _message);
 
     }
