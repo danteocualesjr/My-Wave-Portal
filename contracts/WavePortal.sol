@@ -14,6 +14,7 @@ contract WavePortal {
     }
 
     Wave[] waves;
+    
     mapping (address => uint256) public lastWavedAt;
 
     constructor () payable {
