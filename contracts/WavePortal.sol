@@ -11,8 +11,9 @@ contract WavePortal {
     uint256 private seed;   
      
     event NewWave(address indexed from, uint256 timestamp, string message);
-    
-    struct Wave {        
+
+    struct Wave {     
+           
         address waver;
         string message;    
         uint256 timestamp;
