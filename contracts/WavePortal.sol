@@ -19,10 +19,11 @@ contract WavePortal {
         string message;   
 
         uint256 timestamp;
-        
+
     }
 
     Wave[] waves;
+    
     mapping (address => uint256) public lastWavedAt;
     constructor () payable {
         console.log('We have been constructed!');
