@@ -46,7 +46,8 @@ contract WavePortal {
             
         );
 
-        lastWavedAt[msg.sender] = block.timestamp;        
+        lastWavedAt[msg.sender] = block.timestamp;    
+            
         totalWaves += 1;
         console.log('%s waved w/ message %s', msg.sender);
         waves.push(Wave(msg.sender, _message, block.timestamp));
