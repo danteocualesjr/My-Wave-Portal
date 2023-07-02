@@ -55,7 +55,6 @@ contract WavePortal {
         // console.log('We have %d total waves!', totalWaves);
 
         return totalWaves;       
-
     }
     
 }
