@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "hardhat/console.sol";
 contract WavePortal {
     uint256 totalWaves;
-
     uint256 private seed;   
 
     event NewWave(address indexed from, uint256 timestamp, string message);
