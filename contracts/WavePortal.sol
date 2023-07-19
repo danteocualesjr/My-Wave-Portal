@@ -9,7 +9,6 @@ contract WavePortal {
     struct Wave {     
         address waver;
         string message;   
-
         uint256 timestamp;    
 
     }
