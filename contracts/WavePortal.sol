@@ -26,8 +26,9 @@ contract WavePortal {
     mapping (address => uint256) public lastWavedAt;
     
     constructor () payable {
-        
+
         console.log('We have been constructed!');
+        
         seed = (block.timestamp + block.difficulty) % 100;   
     }
 
