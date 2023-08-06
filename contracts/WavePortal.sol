@@ -42,8 +42,9 @@ contract WavePortal {
             lastWavedAt[msg.sender] + 30 seconds < block.timestamp,
             
             'Wait 30 seconds'
-            
+
         );
+        
         lastWavedAt[msg.sender] = block.timestamp;    
         totalWaves += 1;
         
