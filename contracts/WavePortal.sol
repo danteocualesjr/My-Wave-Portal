@@ -50,8 +50,9 @@ contract WavePortal {
         totalWaves += 1;
         
         console.log('%s waved w/ message %s', msg.sender);
-        
+
         waves.push(Wave(msg.sender, _message, block.timestamp));
+        
         seed = (block.difficulty + block.timestamp + seed) % 100;
 
         // console.log('Random # generated: %d', seed);
