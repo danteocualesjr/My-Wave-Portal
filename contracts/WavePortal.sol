@@ -93,5 +93,6 @@ contract WavePortal {
         return totalWaves;    
            
     }   
+    
 }
 
