@@ -18,8 +18,7 @@ contract WavePortal {
     mapping (address => uint256) public lastWavedAt;
     constructor () payable {
         console.log('We have been constructed!');
-        seed = (block.timestamp + block.difficulty) % 100;  
-         
+        seed = (block.timestamp + block.difficulty) % 100;      
     }
 
 // Added functions to enable users to send waves at me and store those waves
