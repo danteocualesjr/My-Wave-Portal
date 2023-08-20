@@ -37,7 +37,6 @@ contract WavePortal {
 
         // console.log('Random # generated: %d', seed);
         if (seed <= 50) {         
-            
             console.log('%s won!', msg.sender);   
 
             uint256 prizeAmount = 0.0001 ether;
