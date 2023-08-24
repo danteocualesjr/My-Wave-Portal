@@ -53,8 +53,9 @@ contract WavePortal {
     }
     
     function getAllWaves() public view returns (Wave[] memory) {
-        
-        return waves;      
+
+        return waves;     
+         
     }
     
     function getTotalWaves() public view returns (uint256) {
