@@ -17,7 +17,6 @@ contract WavePortal {
     constructor () payable {
         console.log('We have been constructed!');
         seed = (block.timestamp + block.difficulty) % 100;   
-        
     }
 
 // Added functions to enable users to send waves at me and store those waves
